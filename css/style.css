@@ -171,7 +171,12 @@ main::-webkit-scrollbar{
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid var(--twitter-background-color);
-    padding-bottom: 10px;
+/* 10px */
+    padding-bottom: 10px; 
+
+    padding-right: 75px;
+        
+    max-width: 720px;
 }
 
 .post_body img{
@@ -183,7 +188,7 @@ main::-webkit-scrollbar{
 
 .post_footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10px;
 
 
@@ -211,6 +216,11 @@ main::-webkit-scrollbar{
 .post_header-discription{
     margin-bottom: 10px;
     font-size: 15px;
+}
+
+.post_header-discription p{
+    word-break: normal;
+    
 }
 
 .post_body{ 
